@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Calc JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <header></header> -->
+
+    <main>
+        <div class="calcContainer">
+
+            <h1>JS Temperature Calc</h1>
+
+            <label for="#" class="operator">Enter The Temperature Operation: </label>
+            <select id="oprOptions">
+                <option value="CF">Celsius to Fahrenheit [°C to °F]</option>
+                <option value="CK">Celsius to Kelvin [°C to K]</option>
+                <option value="FC">FahrenHeit to Celsius [°F to °C]</option>
+                <option value="FK">Fahrenheit to Kelvin [°F to K]</option>
+                <option value="KC">Kelvin to Celsius [K to °C]</option>
+                <option value="KF">Kelvin to Fahrenheit [K to °F]</option>
+            </select>
+
+            <label for="#" class="num1">Enter Temperature: </label>
+            <input type="text" name="num1" id="num1" placeholder="">
+
+            <button class="resultbtn" id="resultbtn" onclick="tempCalculate()">Calculate</button>
+
+            <label for="#" class="result">The Temperature is: </label>
+            <input type="text" name="result" id="resultShow" readonly>
+
+        </div>
+    </main>
+
+    <!-- <footer></footer> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
