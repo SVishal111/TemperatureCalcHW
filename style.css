@@ -19,7 +19,7 @@ main {
 }
 
 .calcContainer {
-    height: 450px;
+    height: 480px;
     width: 400px;
     /* background-color: blue; */
     background-color: cyan;
@@ -84,4 +84,18 @@ button {
 button:hover {
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5)inset,
                  3px 3px 8px rgba(0, 0, 0, 0.5)inset;
+}
+
+.backBtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
 }
